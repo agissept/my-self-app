@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingVertical="36dp">
+
+        <TextView
+                android:layout_marginTop="24dp"
+                android:layout_marginBottom="42dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/agista_nseptiyanto"
+                android:gravity="center_horizontal"
+                style="@style/Headline3" />
+
+        <com.google.android.material.card.MaterialCardView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="36dp"
+                android:layout_gravity="center">
+
+            <ImageView
+                    android:layout_width="250dp"
+                    android:layout_height="200dp"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/gallery_10" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+                android:layout_marginTop="16dp"
+                android:layout_marginHorizontal="36dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="36dp"
+                app:strokeWidth="0dp"
+                app:cardBackgroundColor="@color/md_theme_primaryContainer">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="16dp">
+
+                <TextView
+                        android:textSize="16sp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/about_me"
+                        android:textColor="@color/md_theme_onPrimaryContainer" />
+            </LinearLayout>
+
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <HorizontalScrollView
+                android:layout_marginTop="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:scrollbarSize="0dp">
+
+            <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                <com.google.android.material.card.MaterialCardView
+                        android:layout_marginStart="36dp"
+                        android:layout_marginEnd="8dp"
+                        android:id="@+id/btn_instagram"
+                        app:cardBackgroundColor="@color/md_theme_primaryContainer"
+                        app:strokeColor="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                            android:paddingHorizontal="16dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="24dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/baseline_instagram_24"
+                                app:tint="@color/md_theme_onPrimaryContainer" />
+
+                        <TextView
+                                android:textSize="16sp"
+                                android:textColor="@color/md_theme_onPrimaryContainer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/instagram"
+                                style="@style/Headline6" />
+
+                        <TextView
+                                android:textColor="@color/md_theme_onPrimaryContainer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/agissept" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+                <com.google.android.material.card.MaterialCardView
+                        android:layout_marginHorizontal="8dp"
+                        android:id="@+id/btn_phone"
+                        app:cardBackgroundColor="@color/md_theme_primaryContainer"
+                        app:strokeColor="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                            android:paddingHorizontal="16dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="24dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/baseline_phone_24"
+                                app:tint="@color/md_theme_onPrimaryContainer"/>
+
+                        <TextView
+                                android:textSize="16sp"
+                                android:textColor="@color/md_theme_onPrimaryContainer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/phone"
+                                style="@style/Headline6" />
+
+                        <TextView
+                                android:textColor="@color/md_theme_onPrimaryContainer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/_0895352465511" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+                <com.google.android.material.card.MaterialCardView
+                        android:layout_marginHorizontal="8dp"
+                        android:id="@+id/btn_email"
+                        app:cardBackgroundColor="@color/md_theme_primaryContainer"
+                        app:strokeColor="@android:color/transparent"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    <LinearLayout
+                            android:paddingHorizontal="16dp"
+                            android:paddingTop="16dp"
+                            android:paddingBottom="24dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical">
+
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:src="@drawable/baseline_email_24"
+                                app:tint="@color/md_theme_onPrimaryContainer"/>
+
+                        <TextView
+                                android:textSize="16sp"
+                                android:textColor="@color/md_theme_onPrimaryContainer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/email"
+                                style="@style/Headline6" />
+
+                        <TextView
+                                android:textColor="@color/md_theme_onPrimaryContainer"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="@string/agis_septiyanto_gmail_com" />
+
+                    </LinearLayout>
+
+                </com.google.android.material.card.MaterialCardView>
+
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <RelativeLayout
+                android:layout_marginHorizontal="36dp"
+                android:layout_marginTop="32dp"
+                android:id="@+id/relativeLayout1"
+                android:layout_width="match_parent"
+                android:layout_height="300dp">
+
+            <androidx.fragment.app.FragmentContainerView
+                    android:id="@+id/fragment_map"
+                    android:layout_width="match_parent"
+                    android:layout_height="250dp"
+                    tools:context=".profile.MapsActivity"
+                    android:name="com.google.android.gms.maps.SupportMapFragment" />
+
+            <ImageView
+                    android:id="@+id/iv_transparent"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:src="@android:color/transparent" />
+        </RelativeLayout>
+
+        <com.google.android.material.button.MaterialButton
+                android:layout_marginHorizontal="18dp"
+                android:layout_marginTop="16dp"
+                android:backgroundTint="@color/md_theme_primaryContainer"
+                android:textColor="@color/md_theme_onPrimaryContainer"
+                android:id="@+id/btn_about"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/about"
+                android:layout_gravity="center" />
+    </LinearLayout>
+</ScrollView>

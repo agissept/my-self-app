@@ -1,0 +1,45 @@
+<resources>
+    <string name="app_name">My Self App</string>
+    <string name="language">Language</string>
+    <string name="change_language">Click to change language</string>
+    <string name="profile">Profile</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="home">Home</string>
+    <string name="gallery">Gallery</string>
+    <string name="daily_activities">Daily Activities</string>
+    <string name="music">Music</string>
+    <string name="title_home">Home</string>
+    <string name="daily_nactivity">Daily\nActivity</string>
+    <string name="friends">Friends</string>
+    <string name="activities">Activities</string>
+    <string name="agista_nseptiyanto">Agista\nSeptiyanto</string>
+    <string name="hobby">Hobby</string>
+    <string name="mancing">Mancing</string>
+    <string name="makanan_favorite">Makanan favorite</string>
+    <string name="dimsum">Dimsum</string>
+    <string name="minuman_favorite">Minuman favorite</string>
+    <string name="kopi">Kopi</string>
+    <string name="interest">Interest</string>
+    <string name="cita_cita">Cita-cita</string>
+    <string name="masuk_surga">Masuk surga</string>
+    <string name="instagram">Instagram</string>
+    <string name="phone">Phone</string>
+    <string name="email">Email</string>
+    <string name="about">About</string>
+    <string name="musics_favorite">Musics &amp; Video\nFavorite</string>
+    <string name="video">Video</string>
+    <string name="about_me">Saya adalah seorang Product Engineer yang sangat menyukai dunia IT. Telah memiliki pengalaman kerja selama beberapa tahun di bidang IT. Saya memiliki passion yang besar dalam dunia IT, dan saya sangat menikmati setiap proses pembelajaran yang saya lakukan. Saya juga memiliki kemampuan dalam mengelola proyek IT</string>
+    <string name="agissept">agissept</string>
+    <string name="_0895352465511">0895352465511</string>
+    <string name="agis_septiyanto_gmail_com">agis.septiyanto@gmail.com</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="finish">Finish</string>
+    <string name="lets_connect">Lets connect</string>
+    <string name="first_caption">Connect with friends and family. Share your activities and experiences with them</string>
+    <string name="explore_my_activies">Explore My Activies</string>
+    <string name="activity_caption">Embark on a journey through your past activities. Discover new insights and relive memorable moments</string>
+    <string name="find_new_interest">Find new interest</string>
+    <string name="interest_caption">Discover new activities that you might like. Explore and find new interests</string>
+
+</resources>

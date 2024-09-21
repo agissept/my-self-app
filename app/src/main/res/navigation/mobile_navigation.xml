@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/mobile_navigation"
+        app:startDestination="@+id/navigation_home">
+
+    <fragment
+            android:id="@+id/navigation_home"
+            android:name="com.example.myselfapp.home.HomeFragment"
+            android:label="@string/title_home"
+            tools:layout="@layout/fragment_home" />
+
+    <fragment
+            android:id="@+id/navigation_daily_activity"
+            android:name="com.example.myselfapp.dailyactivity.DailyActivityFragment"
+            android:label="@string/daily_activities"
+            tools:layout="@layout/fragment_daily_activity" />
+
+    <fragment
+            android:id="@+id/navigation_gallery"
+            android:name="com.example.myselfapp.gallery.GalleryFragment"
+            android:label="@string/gallery"
+            tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+            android:id="@+id/navigation_music"
+            android:name="com.example.myselfapp.music.MusicFragment"
+            android:label="@string/music"
+            tools:layout="@layout/item_music" />
+
+    <fragment
+            android:id="@+id/navigation_profile"
+            android:name="com.example.myselfapp.profile.ProfileFragment"
+            android:label="@string/profile"
+            tools:layout="@layout/fragment_profile" />
+</navigation>
